@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Classify from './components/Classify';
 import Directory from './components/Directory';
@@ -18,6 +19,7 @@ function Footer() {
 export default function App() {
   return (
     <div className="min-h-screen bg-black font-['Inter','Manrope','Geist','IBM Plex Sans','system-ui']">
+      <Navbar />
       <main>
         <Hero />
         <Classify />
